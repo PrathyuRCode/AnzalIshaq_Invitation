@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 100" fill="none">
+  <defs>
+    <radialGradient id="pink" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#f4c4c8"/>
+      <stop offset="100%" stop-color="#d4919a" stop-opacity="0.7"/>
+    </radialGradient>
+    <radialGradient id="leafB" cx="30%" cy="30%" r="70%">
+      <stop offset="0%" stop-color="#7a9e87"/>
+      <stop offset="100%" stop-color="#4d6b58"/>
+    </radialGradient>
+  </defs>
+  <path d="M20 80 Q30 50 50 60 Q40 30 70 45 Q60 20 90 35" stroke="url(#leafB)" stroke-width="3" fill="none" opacity="0.6"/>
+  <ellipse cx="50" cy="55" rx="18" ry="7" fill="url(#leafB)" transform="rotate(-20 50 55)" opacity="0.7"/>
+  <ellipse cx="75" cy="40" rx="16" ry="6" fill="url(#leafB)" transform="rotate(15 75 40)" opacity="0.65"/>
+  <circle cx="35" cy="65" r="10" fill="url(#pink)" opacity="0.85"/>
+  <circle cx="55" cy="48" r="8" fill="url(#pink)" opacity="0.8"/>
+  <circle cx="80" cy="35" r="7" fill="url(#pink)" opacity="0.75"/>
+  <circle cx="32" cy="62" r="4" fill="#fff" opacity="0.4"/>
+  <circle cx="52" cy="45" r="3" fill="#fff" opacity="0.35"/>
+</svg>

@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 60" fill="none">
+  <defs>
+    <linearGradient id="ornGold" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#b8956c" stop-opacity="0"/>
+      <stop offset="20%" stop-color="#c4a574"/>
+      <stop offset="50%" stop-color="#e8d5b0"/>
+      <stop offset="80%" stop-color="#c4a574"/>
+      <stop offset="100%" stop-color="#b8956c" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  <line x1="10" y1="30" x2="90" y2="30" stroke="url(#ornGold)" stroke-width="1"/>
+  <line x1="150" y1="30" x2="230" y2="30" stroke="url(#ornGold)" stroke-width="1"/>
+  <path d="M120 18 L132 30 L120 42 L108 30 Z" stroke="url(#ornGold)" stroke-width="1.1" fill="none"/>
+  <path d="M120 24 L126 30 L120 36 L114 30 Z" fill="#d4b896" opacity="0.75"/>
+  <path d="M95 30 Q100 20 108 28" stroke="#c4a574" stroke-width="0.8" fill="none" opacity="0.65"/>
+  <path d="M95 30 Q100 40 108 32" stroke="#c4a574" stroke-width="0.8" fill="none" opacity="0.65"/>
+  <path d="M145 30 Q140 20 132 28" stroke="#c4a574" stroke-width="0.8" fill="none" opacity="0.65"/>
+  <path d="M145 30 Q140 40 132 32" stroke="#c4a574" stroke-width="0.8" fill="none" opacity="0.65"/>
+</svg>

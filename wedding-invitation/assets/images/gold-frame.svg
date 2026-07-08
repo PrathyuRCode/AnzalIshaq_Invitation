@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 320" fill="none">
+  <defs>
+    <linearGradient id="goldGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#e8c96a"/>
+      <stop offset="30%" stop-color="#c9a227"/>
+      <stop offset="60%" stop-color="#f5ecd3"/>
+      <stop offset="100%" stop-color="#a8861e"/>
+    </linearGradient>
+  </defs>
+  <circle cx="160" cy="160" r="148" stroke="url(#goldGrad)" stroke-width="1.5" fill="none" opacity="0.9"/>
+  <circle cx="160" cy="160" r="140" stroke="url(#goldGrad)" stroke-width="0.5" fill="none" opacity="0.5"/>
+  <!-- Corner flourishes -->
+  <path d="M160 12 Q175 30 160 48 Q145 30 160 12" fill="url(#goldGrad)" opacity="0.7"/>
+  <path d="M160 272 Q175 290 160 308 Q145 290 160 272" fill="url(#goldGrad)" opacity="0.7"/>
+  <path d="M12 160 Q30 175 48 160 Q30 145 12 160" fill="url(#goldGrad)" opacity="0.7"/>
+  <path d="M272 160 Q290 175 308 160 Q290 145 272 160" fill="url(#goldGrad)" opacity="0.7"/>
+  <!-- Side ornaments -->
+  <path d="M160 20 L155 35 L160 30 L165 35 Z" fill="url(#goldGrad)" opacity="0.6"/>
+  <path d="M160 300 L155 285 L160 290 L165 285 Z" fill="url(#goldGrad)" opacity="0.6"/>
+  <path d="M20 160 L35 155 L30 160 L35 165 Z" fill="url(#goldGrad)" opacity="0.6"/>
+  <path d="M300 160 L285 155 L290 160 L285 165 Z" fill="url(#goldGrad)" opacity="0.6"/>
+</svg>

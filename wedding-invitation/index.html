@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Wedding Invitation | Nashva Nazrin & Anzal Ishaq</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Amiri:ital,wght@0,400;0,700;1,400&family=Cormorant+Garamond:ital,wght@0,400;0,600;0,700;1,400&family=Great+Vibes&family=Josefin+Sans:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+    <meta name="description" content="With the blessings of Allah, we invite you to celebrate the union of Nashva Nazrin & Anzal Ishaq.">
+
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://nashva-anzal.vercel.app/">
+    <meta property="og:title" content="Wedding Invitation | Nashva Nazrin & Anzal Ishaq">
+    <meta property="og:description" content="With the blessings of Allah, we invite you to celebrate our wedding.">
+    <meta property="og:image" content="assets/images/preview.png">
+
+    <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.6.0/dist/confetti.browser.min.js"></script>
+</head>
+<body>
+
+    <audio id="bgMusic" loop preload="auto">
+        <source src="assets/audio/nasheed.mpeg" type="audio/mpeg">
+    </audio>
+
+    <button id="musicToggle" class="music-toggle" aria-label="Toggle music">
+        <span id="musicIcon" class="music-icon">♪</span>
+    </button>
+
+    <!-- Opening Gate -->
+    <section class="gate-section" id="gateSection">
+        <div class="gate-atmosphere"></div>
+        <div class="gate-glow"></div>
+        <img src="assets/images/floral-corner.svg" alt="" class="gate-floral gate-floral-tl" aria-hidden="true">
+        <img src="assets/images/floral-corner.svg" alt="" class="gate-floral gate-floral-tr" aria-hidden="true">
+        <img src="assets/images/floral-bottom.svg" alt="" class="gate-floral gate-floral-bl" aria-hidden="true">
+        <img src="assets/images/floral-bottom.svg" alt="" class="gate-floral gate-floral-br" aria-hidden="true">
+
+        <div class="gate-inner">
+            <div class="gate-panel gate-left">
+                <img src="assets/images/gate-panel.svg" alt="" class="panel-texture" aria-hidden="true">
+                <div class="panel-ornament panel-ornament-top"></div>
+                <div class="panel-hinge panel-hinge-1"></div>
+                <div class="panel-hinge panel-hinge-2"></div>
+                <div class="panel-hinge panel-hinge-3"></div>
+            </div>
+            <div class="gate-panel gate-right">
+                <img src="assets/images/gate-panel.svg" alt="" class="panel-texture panel-texture-flip" aria-hidden="true">
+                <div class="panel-ornament panel-ornament-top"></div>
+                <div class="panel-hinge panel-hinge-1"></div>
+                <div class="panel-hinge panel-hinge-2"></div>
+                <div class="panel-hinge panel-hinge-3"></div>
+            </div>
+
+            <div class="gate-center">
+                <div class="gate-frame">
+                    <span class="frame-corner frame-tl"></span>
+                    <span class="frame-corner frame-tr"></span>
+                    <span class="frame-corner frame-bl"></span>
+                    <span class="frame-corner frame-br"></span>
+
+                    <img src="assets/images/gate-seal.svg" alt="" class="gate-seal" aria-hidden="true">
+
+                    <p class="gate-bismillah arabic">بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ</p>
+                    <img src="assets/images/gate-divider.svg" alt="" class="gate-divider" aria-hidden="true">
+
+                    <p class="gate-sub">Wedding Invitation</p>
+                    <p class="gate-nikkah">Nikkah Mubarak</p>
+
+                    <h1 class="gate-names">
+                        <span class="gate-name-line">Nashva Nazrin</span>
+                        <span class="gate-amp">&</span>
+                        <span class="gate-name-line">Anzal Ishaq</span>
+                    </h1>
+
+                    <img src="assets/images/gate-divider.svg" alt="" class="gate-divider" aria-hidden="true">
+                    <p class="gate-date">6th August 2026 · 22nd Safar 1448</p>
+
+                    <button class="open-btn" id="openBtn">
+                        <span class="open-btn-shine"></span>
+                        <span class="open-btn-text">Open Invitation</span>
+                        <span class="open-btn-hint">Tap to enter</span>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Hero -->
+    <section class="hero-section" id="heroSection">
+        <img src="assets/images/floral-corner.svg" alt="" class="deco-corner deco-tl" aria-hidden="true">
+        <img src="assets/images/floral-corner.svg" alt="" class="deco-corner deco-tr" aria-hidden="true">
+        <img src="assets/images/floral-bottom.svg" alt="" class="deco-corner deco-bl" aria-hidden="true">
+        <img src="assets/images/floral-bottom.svg" alt="" class="deco-corner deco-br" aria-hidden="true">
+
+        <div class="hero-bg"></div>
+        <div class="hero-content scroll-animate">
+            <p class="arabic hero-bismillah">بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ</p>
+            <p class="salam-greeting">Assalamu Alaikum Warahmatullahi Wabarakatuh</p>
+            <p class="nikkah-title">Nikkah Mubarak</p>
+
+            <div class="name-wreath">
+                <img src="assets/images/gold-frame.svg" alt="" class="wreath-ring" aria-hidden="true">
+                <h1 class="hero-names script-names">
+                    <span class="name-line">Nashva Nazrin</span>
+                    <span class="ampersand">&</span>
+                    <span class="name-line">Anzal Ishaq</span>
+                </h1>
+            </div>
+
+            <img src="assets/images/leaf-ornament.svg" alt="" class="leaf-ornament" aria-hidden="true">
+            <p class="eyebrow">Together with their families</p>
+            <p class="hero-tagline">Request the honour of your presence<br>at the celebration of their nikah</p>
+        </div>
+
+        <div class="couple-illustration-wrap scroll-animate">
+            <img src="assets/images/couple-illustration.png" alt="Bride and groom illustration" class="couple-illustration">
+        </div>
+
+        <div class="scroll-hint">
+            <span>Scroll</span>
+            <div class="scroll-line"></div>
+        </div>
+    </section>
+
+    <!-- Invitation Text -->
+    <section class="invite-section">
+        <div class="section-card framed-card scroll-animate">
+            <img src="assets/images/filigree-border.svg" alt="" class="filigree-overlay" aria-hidden="true">
+            <img src="assets/images/floral-corner.svg" alt="" class="card-deco card-deco-tl" aria-hidden="true">
+            <img src="assets/images/floral-corner.svg" alt="" class="card-deco card-deco-tr" aria-hidden="true">
+            <div class="arabic-block">
+                <p class="arabic large">بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ</p>
+                <p class="transliteration">In the name of Allah, the Most Gracious, the Most Merciful</p>
+            </div>
+
+            <div class="divider">
+                <span class="divider-gem"></span>
+            </div>
+
+            <p class="invite-body">
+                We cordially invite you and your family to join us in celebrating
+                the sacred union of
+            </p>
+
+            <div class="couple-block">
+                <div class="person">
+                    <h2>Nashva Nazrin</h2>
+                    <p class="parent-line">D/O Late Abdul Naser &amp; Late Naseera</p>
+                </div>
+                <div class="heart-divider" aria-hidden="true">with</div>
+                <div class="person">
+                    <h2>Anzal Ishaq</h2>
+                    <p class="parent-line">S/O Mr. Ishaq &amp; Mrs. Jasmin</p>
+                </div>
+            </div>
+
+            <p class="invite-body closing">
+                Your presence and duas on this blessed occasion would mean the world to us.
+            </p>
+        </div>
+    </section>
+
+    <!-- Scratch Date -->
+    <section class="scratch-section">
+        <img src="assets/images/floral-corner.svg" alt="" class="deco-corner deco-tl" aria-hidden="true">
+        <img src="assets/images/floral-corner.svg" alt="" class="deco-corner deco-tr" aria-hidden="true">
+        <div class="scratch-header scroll-animate">
+            <p class="eyebrow gold">Save the Date</p>
+            <h2 class="section-title">Scratch to Reveal</h2>
+            <p class="section-sub">Uncover the blessed day of our nikah</p>
+        </div>
+
+        <div class="scratch-row scroll-animate">
+            <div class="scratch-card">
+                <div class="scratch-base"><span>6</span><small>Day</small></div>
+                <canvas class="scratch-canvas" width="100" height="110"></canvas>
+            </div>
+            <div class="scratch-card">
+                <div class="scratch-base"><span>Aug</span><small>Month</small></div>
+                <canvas class="scratch-canvas" width="100" height="110"></canvas>
+            </div>
+            <div class="scratch-card">
+                <div class="scratch-base"><span>2026</span><small>Year</small></div>
+                <canvas class="scratch-canvas" width="100" height="110"></canvas>
+            </div>
+        </div>
+    </section>
+
+    <!-- Countdown & Venue -->
+    <section class="event-section">
+        <div class="event-card framed-card scroll-animate">
+            <img src="assets/images/filigree-border.svg" alt="" class="filigree-overlay" aria-hidden="true">
+            <img src="assets/images/floral-bottom.svg" alt="" class="card-deco card-deco-bl" aria-hidden="true">
+            <img src="assets/images/floral-bottom.svg" alt="" class="card-deco card-deco-br" aria-hidden="true">
+            <p class="eyebrow">Mark Your Calendar</p>
+            <h2 class="event-date">Thursday, 6th August 2026</h2>
+            <p class="hijri-date">22nd Safar 1448 AH</p>
+
+            <div class="countdown">
+                <div class="time-block">
+                    <span id="days">00</span>
+                    <label>Days</label>
+                </div>
+                <div class="time-sep">:</div>
+                <div class="time-block">
+                    <span id="hours">00</span>
+                    <label>Hours</label>
+                </div>
+                <div class="time-sep">:</div>
+                <div class="time-block">
+                    <span id="minutes">00</span>
+                    <label>Mins</label>
+                </div>
+                <div class="time-sep">:</div>
+                <div class="time-block">
+                    <span id="seconds">00</span>
+                    <label>Secs</label>
+                </div>
+            </div>
+
+            <div class="divider"><span class="divider-gem"></span></div>
+
+            <div class="venue-block">
+                <h3 class="venue-heading">Our Residence</h3>
+                <p class="venue-time">12:30 PM &ndash; 2:00 PM</p>
+            </div>
+
+            <div class="venue-block">
+                <h3 class="venue-heading">Nikah Ceremony</h3>
+                <p class="venue-time">7:00 PM</p>
+                <p class="venue-name">Amani Auditorium</p>
+                <p class="venue-address">South Bazar, Dhanalakshmi Road, Kannur</p>
+
+                <a class="map-btn" href="https://www.google.com/maps/search/Amani+Auditorium+South+Bazar+Dhanalakshmi+Road+Kannur" target="_blank" rel="noopener noreferrer">
+                    <svg viewBox="0 0 24 24" width="18" height="18" fill="currentColor" aria-hidden="true">
+                        <path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5S10.62 6.5 12 6.5s2.5 1.12 2.5 2.5S13.38 11.5 12 11.5z"/>
+                    </svg>
+                    View on Google Maps
+                </a>
+            </div>
+
+            <div class="timeline">
+                <div class="timeline-item">
+                    <span class="timeline-time">12:30 PM</span>
+                    <span class="timeline-event">At Our Residence (until 2:00 PM)</span>
+                </div>
+                <div class="timeline-item highlight">
+                    <span class="timeline-time">7:00 PM</span>
+                    <span class="timeline-event">Nikah at Amani Auditorium</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- RSVP -->
+    <section class="rsvp-section" id="rsvpSection">
+        <div class="rsvp-card scroll-animate">
+            <p class="eyebrow gold">RSVP</p>
+            <h2 class="section-title">Will you join us?</h2>
+            <p class="section-sub">Kindly let us know if you can attend</p>
+
+            <div class="rsvp-buttons">
+                <button class="rsvp-btn yes" id="yesBtn">Joyfully Accept</button>
+                <button class="rsvp-btn no" id="noBtn">Regretfully Decline</button>
+            </div>
+            <p class="rsvp-message" id="rsvpMessage"></p>
+        </div>
+    </section>
+
+    <!-- Closing -->
+    <section class="closing-section">
+        <img src="assets/images/floral-corner.svg" alt="" class="deco-corner deco-tl" aria-hidden="true">
+        <img src="assets/images/floral-corner.svg" alt="" class="deco-corner deco-tr" aria-hidden="true">
+        <img src="assets/images/floral-bottom.svg" alt="" class="deco-corner deco-bl" aria-hidden="true">
+        <img src="assets/images/floral-bottom.svg" alt="" class="deco-corner deco-br" aria-hidden="true">
+        <div class="closing-content scroll-animate">
+            <p class="arabic closing-arabic">وَجَعَلَ بَيْنَكُم مَّوَدَّةً وَرَحْمَةً</p>
+            <p class="closing-verse">"And He placed between you affection and mercy"</p>
+            <h2 class="closing-dua">Jazakallahu Khair</h2>
+            <p class="closing-names">Nashva Nazrin & Anzal Ishaq</p>
+        </div>
+    </section>
+
+    <footer class="site-footer">
+        <p>Made with love &mdash; Digital Wedding Invitation</p>
+        <a class="footer-whatsapp" href="https://wa.me/918848753193" target="_blank" rel="noopener noreferrer" aria-label="Chat on WhatsApp">
+            <svg class="whatsapp-icon" viewBox="0 0 24 24" width="12" height="12" aria-hidden="true">
+                <path fill="currentColor" d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.435 9.884-9.875 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/>
+            </svg>
+            <span>+91 88487 53193</span>
+        </a>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>

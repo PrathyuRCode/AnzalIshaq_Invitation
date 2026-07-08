@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 600" fill="none" preserveAspectRatio="none">
+  <defs>
+    <linearGradient id="filGold" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#e8c96a"/>
+      <stop offset="50%" stop-color="#c9a227"/>
+      <stop offset="100%" stop-color="#a8861e"/>
+    </linearGradient>
+  </defs>
+  <!-- Outer frame -->
+  <rect x="8" y="8" width="384" height="584" stroke="url(#filGold)" stroke-width="1.2" fill="none" rx="2"/>
+  <rect x="14" y="14" width="372" height="572" stroke="url(#filGold)" stroke-width="0.4" fill="none" rx="1" opacity="0.5"/>
+  <!-- Corner scrollwork TL -->
+  <path d="M8 8 L8 50 Q8 8 50 8" stroke="url(#filGold)" stroke-width="1" fill="none"/>
+  <path d="M20 20 Q35 20 35 35 Q20 35 20 20" stroke="url(#filGold)" stroke-width="0.6" fill="none" opacity="0.7"/>
+  <path d="M8 30 Q15 22 30 22" stroke="url(#filGold)" stroke-width="0.5" fill="none" opacity="0.5"/>
+  <!-- Corner scrollwork TR -->
+  <path d="M392 8 L392 50 Q392 8 350 8" stroke="url(#filGold)" stroke-width="1" fill="none"/>
+  <path d="M380 20 Q365 20 365 35 Q380 35 380 20" stroke="url(#filGold)" stroke-width="0.6" fill="none" opacity="0.7"/>
+  <!-- Corner scrollwork BL -->
+  <path d="M8 592 L8 550 Q8 592 50 592" stroke="url(#filGold)" stroke-width="1" fill="none"/>
+  <path d="M20 580 Q35 580 35 565 Q20 565 20 580" stroke="url(#filGold)" stroke-width="0.6" fill="none" opacity="0.7"/>
+  <!-- Corner scrollwork BR -->
+  <path d="M392 592 L392 550 Q392 592 350 592" stroke="url(#filGold)" stroke-width="1" fill="none"/>
+  <path d="M380 580 Q365 580 365 565 Q380 565 380 580" stroke="url(#filGold)" stroke-width="0.6" fill="none" opacity="0.7"/>
+  <!-- Mid-side flourishes -->
+  <path d="M8 300 Q20 290 8 280" stroke="url(#filGold)" stroke-width="0.5" fill="none" opacity="0.4"/>
+  <path d="M392 300 Q380 290 392 280" stroke="url(#filGold)" stroke-width="0.5" fill="none" opacity="0.4"/>
+  <circle cx="200" cy="8" r="3" fill="url(#filGold)" opacity="0.6"/>
+  <circle cx="200" cy="592" r="3" fill="url(#filGold)" opacity="0.6"/>
+</svg>

@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" fill="none">
+  <defs>
+    <linearGradient id="sealGold" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f5e6c8"/>
+      <stop offset="40%" stop-color="#d4b896"/>
+      <stop offset="70%" stop-color="#c4a574"/>
+      <stop offset="100%" stop-color="#b8956c"/>
+    </linearGradient>
+  </defs>
+  <circle cx="60" cy="60" r="56" stroke="url(#sealGold)" stroke-width="1.4" fill="none" opacity="0.9"/>
+  <circle cx="60" cy="60" r="48" stroke="url(#sealGold)" stroke-width="0.5" fill="none" opacity="0.45"/>
+  <circle cx="60" cy="60" r="40" stroke="url(#sealGold)" stroke-width="0.7" fill="none" opacity="0.3"/>
+  <path d="M68 28 C55 28 46 38 46 50 C46 64 58 74 72 72 C63 76 50 73 44 64 C36 52 40 34 56 28 C60 27 64 27 68 28Z" fill="url(#sealGold)"/>
+  <circle cx="80" cy="38" r="4" fill="url(#sealGold)"/>
+</svg>

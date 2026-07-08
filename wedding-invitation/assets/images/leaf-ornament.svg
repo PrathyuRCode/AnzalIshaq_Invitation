@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 40" fill="none">
+  <defs>
+    <linearGradient id="goldLeaf" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#a8861e"/>
+      <stop offset="50%" stop-color="#e8c96a"/>
+      <stop offset="100%" stop-color="#a8861e"/>
+    </linearGradient>
+  </defs>
+  <line x1="10" y1="20" x2="80" y2="20" stroke="url(#goldLeaf)" stroke-width="0.8" opacity="0.6"/>
+  <line x1="120" y1="20" x2="190" y2="20" stroke="url(#goldLeaf)" stroke-width="0.8" opacity="0.6"/>
+  <path d="M100 20 C90 8 75 12 82 20 C75 28 90 32 100 20 Z" fill="url(#goldLeaf)" opacity="0.8"/>
+  <path d="M85 20 C78 14 70 18 76 20 C70 24 78 26 85 20 Z" fill="url(#goldLeaf)" opacity="0.5"/>
+  <path d="M115 20 C122 14 130 18 124 20 C130 24 122 26 115 20 Z" fill="url(#goldLeaf)" opacity="0.5"/>
+  <ellipse cx="70" cy="18" rx="12" ry="5" fill="url(#goldLeaf)" transform="rotate(-25 70 18)" opacity="0.4"/>
+  <ellipse cx="130" cy="18" rx="12" ry="5" fill="url(#goldLeaf)" transform="rotate(25 130 18)" opacity="0.4"/>
+</svg>

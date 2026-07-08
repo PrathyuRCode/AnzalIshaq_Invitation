@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" fill="none">
+  <defs>
+    <radialGradient id="rose1" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#f8f4ef"/>
+      <stop offset="70%" stop-color="#e8ddd0"/>
+      <stop offset="100%" stop-color="#d4c4b0" stop-opacity="0.6"/>
+    </radialGradient>
+    <radialGradient id="rose2" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="60%" stop-color="#f0ebe3"/>
+      <stop offset="100%" stop-color="#d9cfc2" stop-opacity="0.5"/>
+    </radialGradient>
+    <radialGradient id="leafG" cx="30%" cy="30%" r="70%">
+      <stop offset="0%" stop-color="#8faa96"/>
+      <stop offset="100%" stop-color="#5a7d6a" stop-opacity="0.7"/>
+    </radialGradient>
+  </defs>
+  <!-- Leaves -->
+  <ellipse cx="40" cy="120" rx="28" ry="12" fill="url(#leafG)" transform="rotate(-35 40 120)" opacity="0.85"/>
+  <ellipse cx="70" cy="90" rx="32" ry="11" fill="url(#leafG)" transform="rotate(-15 70 90)" opacity="0.75"/>
+  <ellipse cx="95" cy="55" rx="26" ry="10" fill="url(#leafG)" transform="rotate(10 95 55)" opacity="0.8"/>
+  <ellipse cx="25" cy="75" rx="22" ry="9" fill="url(#leafG)" transform="rotate(-55 25 75)" opacity="0.7"/>
+  <ellipse cx="55" cy="45" rx="24" ry="9" fill="url(#leafG)" transform="rotate(-25 55 45)" opacity="0.65"/>
+  <!-- Roses -->
+  <circle cx="85" cy="35" r="18" fill="url(#rose2)" opacity="0.9"/>
+  <circle cx="78" cy="30" r="10" fill="#ffffff" opacity="0.5"/>
+  <circle cx="60" cy="55" r="15" fill="url(#rose1)" opacity="0.85"/>
+  <circle cx="55" cy="50" r="8" fill="#ffffff" opacity="0.4"/>
+  <circle cx="35" cy="85" r="14" fill="url(#rose2)" opacity="0.8"/>
+  <circle cx="100" cy="70" r="12" fill="url(#rose1)" opacity="0.75"/>
+  <circle cx="20" cy="110" r="11" fill="url(#rose2)" opacity="0.7"/>
+  <!-- Buds -->
+  <circle cx="110" cy="40" r="6" fill="#e8ddd0" opacity="0.6"/>
+  <circle cx="45" cy="25" r="5" fill="#f0ebe3" opacity="0.5"/>
+</svg>
